@@ -1,6 +1,6 @@
 from cv2 import FONT_HERSHEY_COMPLEX_SMALL, cv2, resize
 
-imagen = 'J:\Ingenieria\8vo Semestre\Robotica movil\Figuras geometricas\estrella2.png'
+imagen = 'C:\Users\Carlos\Documents\Octavo\Robotica movil\circulo.png'
 im = cv2.imread(imagen)
 image = resize(im, dsize=(600,600), interpolation= cv2.INTER_CUBIC)
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
